@@ -84,8 +84,8 @@ If you use a Webex Service Account, please refer to Section 3.1 to set global se
     - Click on `Configuration` button on the top left corner.
     - Click on `Add-on Settings` button.
     - Enter the following details:
-      - **Site Name** (**_required_**): This identifies the Webex site you are targeting with your add-on. For example, if the URL is `https://splunk.webex.com`, the Webex Site that you have to enter is `splunk`.
       - **API URI** (**_required_**): API URI. Please use appropriate URI for your account.  Note: FedRAMP has a separate URI for API service.
+      - **Site Name** (**_required_**): This identifies the Webex site you are targeting with your add-on. For example, if the URL is `https://splunk.webex.com`, the Webex Site that you have to enter is `splunk`.
       - **Username** (**_required_**): Service Account Username or E-mail address of the host or admin account making the request. For example: `splunker@example.com`.
       - **Authentication Type** (**_required_**): Please select `Basic Password Auth` for Webex Service Account.
       - **Redirect URI** (_optional_): **Please leave it blank**. (Redirect URI is optional for Basic Password Auth type.)
@@ -99,6 +99,7 @@ If you use a Webex Service Account, please refer to Section 3.1 to set global se
     - Click on `Configuration` button on the top left corner.
     - Click on `Add-on Settings` button.
     - Enter the following details:
+      - **API URI** (**_required_**): API URI. Please use appropriate URI for your account.  Note: FedRAMP has a separate URI for API service.
       - **Site Name** (**_required_**): This identifies the Webex site you are targeting with your add-on. For example, if the URL is `https://splunk.webex.com`, the Webex Site that you have to enter is `splunk`.
       - **Username** (**_required_**): Service Account Username or E-mail address of the host or admin account making the request. For example: `splunker@example.com`.
       - **Authentication Type** (**_required_**): Please select `OAuth` for SSO/OAuth enabled account.
