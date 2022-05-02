@@ -93,6 +93,15 @@ model_logging = RestModel(fields_logging, name='logging')
 
 fields_additional_parameters = [
     field.RestField(
+        'api_uri',
+        required=True,
+        encrypted=False,
+        default='https://webexapis.com/',
+        validator=validator.Pattern(
+            regex="(^https:\/\/[^\s]+)",
+        )
+    ),
+    field.RestField(
         'site_name',
         required=True,
         encrypted=False,
